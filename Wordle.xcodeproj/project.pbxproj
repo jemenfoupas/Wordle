@@ -11,6 +11,7 @@
 		9B38A08129614047007A08AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38A08029614047007A08AC /* ContentView.swift */; };
 		9B38A08329614047007A08AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B38A08229614047007A08AC /* Assets.xcassets */; };
 		9B38A08629614047007A08AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B38A08529614047007A08AC /* Preview Assets.xcassets */; };
+		9B38A08D29622D6C007A08AC /* TextBindingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38A08C29622D6C007A08AC /* TextBindingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9B38A08029614047007A08AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B38A08229614047007A08AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B38A08529614047007A08AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B38A08C29622D6C007A08AC /* TextBindingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBindingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				9B38A08029614047007A08AC /* ContentView.swift */,
 				9B38A08229614047007A08AC /* Assets.xcassets */,
 				9B38A08429614047007A08AC /* Preview Content */,
+				9B38A08C29622D6C007A08AC /* TextBindingManager.swift */,
 			);
 			path = Wordle;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B38A08D29622D6C007A08AC /* TextBindingManager.swift in Sources */,
 				9B38A08129614047007A08AC /* ContentView.swift in Sources */,
 				9B38A07F29614047007A08AC /* WordleApp.swift in Sources */,
 			);
