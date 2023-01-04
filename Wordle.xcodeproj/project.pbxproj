@@ -12,6 +12,8 @@
 		9B38A08329614047007A08AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B38A08229614047007A08AC /* Assets.xcassets */; };
 		9B38A08629614047007A08AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B38A08529614047007A08AC /* Preview Assets.xcassets */; };
 		9B38A08D29622D6C007A08AC /* TextBindingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38A08C29622D6C007A08AC /* TextBindingManager.swift */; };
+		9B38A08F2965079D007A08AC /* WordGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38A08E2965079D007A08AC /* WordGetter.swift */; };
+		9B38A091296509D7007A08AC /* checking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38A090296509D7007A08AC /* checking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9B38A08229614047007A08AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B38A08529614047007A08AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B38A08C29622D6C007A08AC /* TextBindingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBindingManager.swift; sourceTree = "<group>"; };
+		9B38A08E2965079D007A08AC /* WordGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGetter.swift; sourceTree = "<group>"; };
+		9B38A090296509D7007A08AC /* checking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				9B38A08229614047007A08AC /* Assets.xcassets */,
 				9B38A08429614047007A08AC /* Preview Content */,
 				9B38A08C29622D6C007A08AC /* TextBindingManager.swift */,
+				9B38A08E2965079D007A08AC /* WordGetter.swift */,
+				9B38A090296509D7007A08AC /* checking.swift */,
 			);
 			path = Wordle;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			files = (
 				9B38A08D29622D6C007A08AC /* TextBindingManager.swift in Sources */,
 				9B38A08129614047007A08AC /* ContentView.swift in Sources */,
+				9B38A08F2965079D007A08AC /* WordGetter.swift in Sources */,
 				9B38A07F29614047007A08AC /* WordleApp.swift in Sources */,
+				9B38A091296509D7007A08AC /* checking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
