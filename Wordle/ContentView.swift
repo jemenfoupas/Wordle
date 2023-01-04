@@ -31,6 +31,7 @@ struct ContentView: View {
     
     var body: some View {
         
+        //first row of inputes
         VStack {
             Text("\"" + wordArray.Definition + "\"")
                 .padding()
@@ -75,6 +76,7 @@ struct ContentView: View {
                     .disabled(numTry != 0 ? true: false)
             }
             
+            // second row of inputes
             HStack{
                 TextField("", text: $rowTwo.char0)
                     .frame(width: 66.0, height: 66.0)
@@ -112,6 +114,7 @@ struct ContentView: View {
                     .disabled(numTry != 1 ? true: false)
             }
             
+            //Third row of inputes
             HStack{
                 TextField("", text: $rowThree.char0)
                     .frame(width: 66.0, height: 66.0)
@@ -149,6 +152,7 @@ struct ContentView: View {
                     .disabled(numTry != 2 ? true: false)
             }
             
+            //Fourth row of inputes
             HStack{
                 TextField("", text: $rowFour.char0)
                     .frame(width: 66.0, height: 66.0)
@@ -186,6 +190,7 @@ struct ContentView: View {
                     .disabled(numTry != 3 ? true: false)
             }
             
+            //Fifth row of inputes
             HStack{
                 TextField("", text: $rowFive.char0)
                     .frame(width: 66.0, height: 66.0)
@@ -225,7 +230,6 @@ struct ContentView: View {
             
             Button("Button", action:  {
                 output = ""
-                
                 if(numTry == 0){
                     let outcome = checking(word: wordArray, inputes: rowOne, isCorrect: isCorrectRowOne)
                     if(outcome.allfill()) {
