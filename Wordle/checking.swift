@@ -9,15 +9,17 @@ import Foundation
 import SwiftUI
 
 class checking {
-    var wordArray: WordGetter
+    var wordArray: Array<Character>
     var userInpute: TextBindingManager
     var correct: [Bool]
     
     
     init(word: WordGetter, inputes: TextBindingManager, isCorrect: [Bool] ) {
-        wordArray = word
+        wordArray = Array(word.getWord())
         userInpute = inputes
         correct = isCorrect
+        print("checkin")
+        print(wordArray)
     }
     
     func allfill() -> Bool {
@@ -28,19 +30,19 @@ class checking {
     }
     func verify() -> [Bool] {
         
-        if( wordArray.word[0] == Array(userInpute.char0)[0]) {
+        if( wordArray[0].uppercased() == Array(arrayLiteral: userInpute.char0)[0]) {
             self.correct[0] = true
         }
-        if( wordArray.word[1] == Array(userInpute.char1)[0]) {
+        if( wordArray[1].uppercased() == Array(arrayLiteral: userInpute.char1)[0]) {
             self.correct[1] = true
         }
-        if( wordArray.word[2] == Array(userInpute.char2)[0]) {
+        if( wordArray[2].uppercased() == Array(arrayLiteral: userInpute.char2)[0]) {
             self.correct[2] = true
         }
-        if( wordArray.word[3] == Array(userInpute.char3)[0]) {
+        if( wordArray[3].uppercased() == Array(arrayLiteral: userInpute.char3)[0]) {
             self.correct[3] = true
         }
-        if( wordArray.word[4] == Array(userInpute.char4)[0]) {
+        if( wordArray[4].uppercased() == Array(arrayLiteral: userInpute.char4)[0]) {
             self.correct[4] = true
         }
         

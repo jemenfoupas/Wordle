@@ -33,8 +33,9 @@ struct ContentView: View {
         
         //first row of inputes
         VStack {
-            Text("\"" + wordArray.Definition + "\"")
+            Text(wordArray.getWord())
                 .padding()
+                .background(Color.red)
             HStack{
                 TextField("", text: $rowOne.char0)
                     .frame(width: 66.0, height: 66.0)
@@ -303,9 +304,6 @@ struct ContentView: View {
             
         }
         .padding()
-        .background(
-            Image("background")
-        )
         
     }
         
